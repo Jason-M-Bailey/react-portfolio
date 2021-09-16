@@ -18,14 +18,17 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
+          <a href="/projects">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Below are a couple recent projects, click here for a more
+              extensive look at my portfolio.
+            </p>
+          </a>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project, index) =>
+
+            // to set limit on number of projects to display
             index < 2 ? (
               <a
                 href={project.link}
@@ -55,11 +58,6 @@ export default function Projects() {
             )
           )}
         </div>
-        <a href="/projects">
-          <p className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            View More Projects
-          </p>{" "}
-        </a>
       </div>
     </section>
   );
