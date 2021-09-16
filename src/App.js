@@ -1,18 +1,19 @@
 import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Project from "./pages/Projects";
 
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <Router>
+        <Navbar />
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/projects" component={Project} />
+        <Footer />
+      </Router>
     </main>
   );
 }
