@@ -24,28 +24,28 @@ export const projects = [
     link: "https://github.com/Jason-M-Bailey/budgettrackers",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Reading List",
+    subtitle: "React, Express, Mongoose",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Simple reading list app with book descriptions, CRUD routes utilized to view and update list",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Jason-M-Bailey/reading-list",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Whack-A-Mole",
+    subtitle: "Javascript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A retro grid-based game in vanilla JavaScript, HTML and CSS",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Jason-M-Bailey/whack-a-mole",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Workout Tracker",
+    subtitle: "Javascript, Express, Mongoose",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "View your workout statistics on the main page, the total weight lifted, time spent, calories burned, etc. On the dashboard, view the past 7 days of workouts in more detail. This app also works offline and will sync your data once reconnected.",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/Jason-M-Bailey/workouttracker",
   },
 
 
