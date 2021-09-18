@@ -12,9 +12,7 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            UNC Charlotte Full Stack Web Development Bootcamp student, graduating in October 2021. 
           </p>
           <div className="flex justify-center">
             <a
