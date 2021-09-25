@@ -31,10 +31,9 @@ export default function Contact() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Let's Work Together
           </h1>
-          
+
           <p className="leading-relaxed mb-5">
-            Contact me by{" "}
-            <a href="mailto:jmbailey816@gmail.com">email, </a>
+            Contact me by <a href="mailto:jmbailey816@gmail.com">email, </a>
             <a
               href="https://www.linkedin.com/in/jason-bailey-80b88b16a/"
               target="_blank"
@@ -48,8 +47,6 @@ export default function Contact() {
           </p>
         </div>
       </div>
-
-     
     </section>
   );
 }
