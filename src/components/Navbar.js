@@ -26,8 +26,7 @@ export default function Navbar() {
           )}
 
           <a
-            href="https://drive.google.com/file/d/1HFq2v0bI9lCRW8umqsab3D9Vqzsj0hzY/view?uy
-            sp=sharing"
+            href="https://drive.google.com/file/d/1xMc5wUJw-e1H962dADh0GIVyTjHcpnbF/view?usp=sharing"
             target="_blank"
             className="mr-5 hover:text-white"
           >
