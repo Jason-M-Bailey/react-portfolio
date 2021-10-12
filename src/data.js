@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Git Share 2.0",
+    subtitle: "React, Passport, Express, Node.js, MongoDB",
+    description: "Tool to search out, plan out and coordinate your app",
+    image: "./git-share.jpg",
+    link: "https://github.com/Jason-M-Bailey/git-share"
+  },
+  {
     title: "Google Books Search",
     subtitle: "React, Express, Node.js, MongoDB",
     description:
